@@ -61,7 +61,7 @@ function display_results(cards1, cards2) {
     display(cards1, 'res1');
     display(cards2, 'res2');
     $('#res1').prepend(`<h3>${name_team1}</h3><br>`);
-    $('#res2').prepend(`<h3>${name_team1}</h3><br>`);
+    $('#res2').prepend(`<h3>${name_team2}</h3><br>`);
 }
 
 var seated = 0;

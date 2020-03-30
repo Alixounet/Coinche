@@ -1,6 +1,9 @@
+var playing = true
 function send_msg(event, val) {
    console.log(`Send event ${event} to server`);
-   wssend(`${event}?${JSON.stringify(val)}`);
+   if (playing) {
+      wssend(`${event}?${JSON.stringify(val)}`);
+   }
 }
 
 var ws = null;
@@ -20,6 +23,7 @@ function wssend(msg) {
             switch (msg['type']) {
                case 'ack':
                   console.log('Ack received', msg['type'], msg);
+                  playing = msg['playing']
                   reset()
                case 'player':
                   $('#room').html(`<div class="valign">Waiting for ${msg['lplayers']} players...</div>`);
