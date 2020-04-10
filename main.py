@@ -15,7 +15,7 @@ class CoincheGame:
         self.suits = [ "diamonds", "hearts", "spades", "clubs" ]
         self.deck = []
         self.played = {}
-        self.table = []
+        self.table = [None, None, None, None]
         self.last = []
         self.teams = {1:[], 2:[]}
         self.picked_up = False
@@ -54,6 +54,17 @@ class CoincheGame:
         return 4 - len(self.players)
     
     async def remove_player(self, uid):
+        in_spectator = False
+        new_spectators = []
+        for p in self.spectators:
+            if p['uid'] != uid:
+                new_spectators.append(p)
+            else:
+                in_spectator = True
+        self.spectators = new_spectators
+        if in_spectator:
+            return
+
         print('Remove player')
         new_players = []
         for p in self.players:
@@ -62,7 +73,7 @@ class CoincheGame:
         self.players = new_players
         self.deck = []
         self.played = {}
-        self.table = []
+        self.table = [None, None, None, None]
         self.last = []
         self.chairs = {}
         self.teams = {1:[], 2:[]}
@@ -87,7 +98,7 @@ class CoincheGame:
             return
 
         self.deck = []
-        self.table = []
+        self.table = [None, None, None, None]
         self.last = []
         self.teams = {1:[], 2:[]}
         self.picked_up = False
@@ -120,13 +131,13 @@ class CoincheGame:
                 new_deck.append(c)
         self.deck = new_deck
 
-    async def playing(self, uid, card):
+    async def playing(self, uid, card, chair):
         print('Playing')
         self.picked_up = False
         if not uid in self.played:
             self.remove_card_from_deck(card)
             self.played[uid] = True
-            self.table.append(card)
+            self.table[chair-1] = card
             for p in self.players:
                 infos = {
                     'type': 'table',
@@ -152,7 +163,7 @@ class CoincheGame:
         self.picked_up = True
         self.teams[team] += self.table
         self.last = self.table
-        self.table = []
+        self.table = [None, None, None, None]
         self.played = {}
         for p in self.players:
             infos = {
@@ -215,15 +226,18 @@ async def message(websocket, path):
                     'type': 'ack',
                     'playing': res,
                     'uid': uid,
-                    'lplayers': game.nb_player_left()
+                    'lplayers': game.nb_player_left(),
+                    'cards': game.table,
+                    'last': game.last
                 }
                 await websocket.send(json.dumps(infos))
-                for p in game.players:
-                    infos = {
-                        'type': 'player',
-                        'lplayers': game.nb_player_left()
-                    }
-                    await p['ws'].send(json.dumps(infos))
+                if game.nb_player_left() > 0:
+                    for p in game.players:
+                        infos = {
+                            'type': 'player',
+                            'lplayers': game.nb_player_left()
+                        }
+                        await p['ws'].send(json.dumps(infos))
                 if res and game.nb_player_left() == 0:
                     await game.wait_chairs()
             elif event == 'chair':
@@ -233,7 +247,7 @@ async def message(websocket, path):
                         'chair': (val+1)
                     }
                     await websocket.send(json.dumps(infos))
-                    for p in game.players:
+                    for p in game.players + game.spectators:
                         if p['uid'] != uid:
                             infos = {
                                 'type': 'taken',
@@ -254,7 +268,8 @@ async def message(websocket, path):
                 if game.nb_player_left() == 0:
                     await game.start_game()
             elif event == 'play':
-                await game.playing(uid, val)
+                card = { 'value': val['value'], 'suit':  val['suit'] }
+                await game.playing(uid, card, val['chair'])
             elif event == 'pickup':
                 await game.hand_done(val)
 

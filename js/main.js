@@ -1,4 +1,5 @@
 var last_card_played = false;
+var chair_id = -1;
 
 var short_name_team1 = 'T1';
 var short_name_team2 = 'T2';
@@ -13,27 +14,34 @@ function display(cards, div, cb = null) {
         var suit = document.createElement("div");
         card.className = "card";
         value.className = "value";
-        suit.className = "suit " + cards[i]['suit'];
+        if (cards[i] != null) {
+            suit.className = "suit " + cards[i]['suit'];
 
-        card.setAttribute('suit', cards[i]['suit'])
-        card.setAttribute('value', cards[i]['value'])
+            card.setAttribute('suit', cards[i]['suit'])
+            card.setAttribute('value', cards[i]['value'])
 
-        value.innerHTML = cards[i]['value'];
-        card.appendChild(value);
-        card.appendChild(suit);
+            value.innerHTML = cards[i]['value'];
+            card.appendChild(value);
+            card.appendChild(suit);
 
-        document.getElementById(div).appendChild(card);
-
-        if (cb != null) {
-            card.addEventListener('click', cb);
+            if (cb != null) {
+                card.addEventListener('click', cb);
+            }
+        } else {
+            card.className += ' null'
+            suit.className = "suit null";
+            value.innerHTML = '&nbsp';
+            card.appendChild(value);
+            card.appendChild(suit);
         }
+        document.getElementById(div).appendChild(card);
     }
 }
 function display_cards(cards) {
     display(cards, 'hand', function() {
         let s = this.getAttribute('suit');
         let v = this.getAttribute('value');
-        send_msg('play', { 'value': v, 'suit': s });
+        send_msg('play', { 'value': v, 'suit': s, 'chair': chair_id });
         if (!last_card_played) {
             last_card_played = true;
             this.remove();
@@ -86,6 +94,9 @@ function reset() {
     $('#order').html(`<div class="valign">XX</div>`);
     last_card_played = false;
     seated = 0;
+
+    display_table([null,null,null,null]);
+    display_last_hand([null,null,null,null]);
 }
 
 

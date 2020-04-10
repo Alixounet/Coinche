@@ -24,9 +24,17 @@ function wssend(msg) {
                case 'ack':
                   console.log('Ack received', msg['type'], msg);
                   playing = msg['playing']
-                  reset()
+                  reset();
+                  if (!msg['playing']) {
+                     $('#spectator').show();
+                     $('#room').hide();
+                     display_table(msg['cards']);
+                     display_last_hand(msg['last']);
+                  }
                case 'player':
-                  $('#room').html(`<div class="valign">Waiting for ${msg['lplayers']} players...</div>`);
+                  if (msg['lplayers'] != 0) {
+                     $('#room').html(`<div class="valign">Waiting for ${msg['lplayers']} players...</div>`);
+                  }
                   break;
                case 'chairwait':
                   $('#room').html(`<div class="valign">Waiting for ${msg['lchair']} seats...</div>`);
@@ -36,6 +44,7 @@ function wssend(msg) {
                   $('#chair'+msg['chair']).addClass('taken');
                   break;
                case 'yours':
+                  chair_id = msg['chair'];
                   $('#chair'+msg['chair']).removeClass('free');
                   $('#chair'+msg['chair']).addClass('yours');
                   if ([1,3].indexOf(msg['chair']) != -1) {
