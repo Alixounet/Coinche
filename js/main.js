@@ -16,12 +16,12 @@ function display(cards, div, cb = null) {
         card.className = "card" + (div=='hand'?' clickable':'');
         value.className = "value";
         if (cards[i] != null) {
-            suit.className = "suit " + cards[i]['suit'];
+            suit.className = "suit " + cards[i]['suit'] + ' v' + cards[i]['value'];
 
             card.setAttribute('suit', cards[i]['suit'])
             card.setAttribute('value', cards[i]['value'])
 
-            value.innerHTML = cards[i]['value'];
+            // value.innerHTML = cards[i]['value'];
             card.appendChild(value);
             card.appendChild(suit);
 
@@ -31,7 +31,7 @@ function display(cards, div, cb = null) {
         } else {
             card.className += ' null'
             suit.className = "suit null";
-            value.innerHTML = '&nbsp';
+            // value.innerHTML = '&nbsp';
             card.appendChild(value);
             card.appendChild(suit);
         }

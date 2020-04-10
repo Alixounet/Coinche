@@ -98,7 +98,7 @@ html {
 }
 
 .card {
-    padding: 10px;
+    /* padding: 10px; */
     margin: 10px;
     border: solid 1px #808080;
     background-color: white;
@@ -109,19 +109,23 @@ html {
     color:black;
 }
 
-.card .value{
+.card .value {
     font-size:15pt;
     font-family: sans-serif;
 }
 
 .card .suit
 {
-    background-image: url('cards.png');
-    height: 100px;
-    width: 90px;
+    /* background-image: url('cards.png'); */
+    /* height: 100px; */
+    /* width: 90px; */
+    background-image: url('cardset.png');
+    height: 190px;
+    width: 131px;
+    border-radius: 10px;
 }
 
-.card .diamonds
+/* .card .diamonds
 {
     background-position-y: 100px;
 }
@@ -135,7 +139,21 @@ html {
 {
     background-position-x:90px;
     background-position-y:100px;
-}
+} */
+
+.card .clubs { background-position-y:   -7px; }
+.card .diamonds { background-position-y: 603.25px; }
+.card .hearts { background-position-y: 399.5px; }
+.card .spades { background-position-y: 196.75px; }
+
+.card .vA  { background-position-x: -1px; }
+.card .v7  { background-position-x: 929.75px; }
+.card .v8  { background-position-x: 796.75px; }
+.card .v9  { background-position-x: 663.75px; }
+.card .v10 { background-position-x: 530.75px; }
+.card .vJ  { background-position-x: 397.75px; }
+.card .vQ  { background-position-x: 264.75px; }
+.card .vK  { background-position-x: 131.75px; }
 
 .null {
     background-color: #00000066;
