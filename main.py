@@ -11,7 +11,7 @@ class CoincheGame:
         print('Starting new game!')
         self.players = []
         self.cards = [ "A", "7", "8", "9", "10", "J", "Q", "K" ]
-        self.cards = [ "A", "9" ]
+        # self.cards = [ "A", "9" ]
         self.suits = [ "diamonds", "hearts", "spades", "clubs" ]
         self.deck = []
         self.played = {}
