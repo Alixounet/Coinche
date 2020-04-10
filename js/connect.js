@@ -85,7 +85,7 @@ function wssend(msg) {
                   $('#res1').removeClass('disable');
                   $('#res2').removeClass('disable');
                   $('#ok').removeClass('disable');
-                  display_results(msg['team1'], msg['team2'])
+                  display_results(msg['team1'], msg['team2'], msg['der']);
                   ['#chair1', '#chair3', '#chair2', '#chair4'].forEach(function (elem) {
                      $(elem).removeClass('played');
                   });

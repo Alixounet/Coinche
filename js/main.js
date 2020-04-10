@@ -1,4 +1,5 @@
 var last_card_played = false;
+var card_played = null;
 var chair_id = -1;
 
 var short_name_team1 = 'T1';
@@ -8,11 +9,11 @@ var name_team2 = 'Team 2';
 
 function display(cards, div, cb = null) {
     document.getElementById(div).innerHTML = '';
-    for(var i = 0; i < cards.length; i++) {
+    for (var i = 0; i < cards.length; i++) {
         var card = document.createElement("div");
         var value = document.createElement("div");
         var suit = document.createElement("div");
-        card.className = "card";
+        card.className = "card" + (div=='hand'?' clickable':'');
         value.className = "value";
         if (cards[i] != null) {
             suit.className = "suit " + cards[i]['suit'];
@@ -44,15 +45,19 @@ function display_cards(cards) {
         send_msg('play', { 'value': v, 'suit': s, 'chair': chair_id });
         if (!last_card_played) {
             last_card_played = true;
-            this.remove();
+        } else {
+            document.getElementById('hand').appendChild(card_played);
         }
+        this.remove();
+        card_played = this;
     })
 }
 
 function display_table(cards) {
     display(cards, 'table');
 
-    if (cards.length == 4) {
+
+    if (cards.indexOf(null) == -1 && cards.length == 4) {
         $('#team1').removeClass('disable');
         $('#team2').removeClass('disable');
     }
@@ -62,14 +67,57 @@ function display_last_hand(cards) {
     display(cards, 'last_hand');
 }
 
-function display_results(cards1, cards2) {
+var pts_n = { "A":11 , "7":0, "8":0, "9":0, "10":10, "J":2, "Q":3, "K":4 };
+var pts_a = { "A":11 , "7":0, "8":0, "9":14, "10":10, "J":20, "Q":3, "K":4 };
+var pts_sa = { "A":19 , "7":0, "8":0, "9":0, "10":10, "J":2, "Q":3, "K":4 };
+
+function points(cards, der, suit) {
+    let val = 0;
+    if (cards.length == 32) {
+        return 252;
+    }
+    for (var i = 0; i < cards.length; i++) {
+        if (suit == 'SA') {
+            val += pts_sa[cards[i]['value']];
+        } else if (suit == 'TA') {
+            val += pts_a[cards[i]['value']];
+        } else {
+            val += (cards[i]['suit'] == suit? pts_a[cards[i]['value']] : pts_n[cards[i]['value']]);
+        }
+    }
+    let ratio = (suit == 'TA'? 162.0/258.0 : 1.0);
+    return parseInt((val + (der? 10 : 0))*ratio);
+}
+
+function display_results(cards1, cards2, der) {
+    console.log(der);
     document.getElementById('hand').innerHTML = '';
     document.getElementById('table').innerHTML = '';
     document.getElementById('last_hand').innerHTML = '';
     display(cards1, 'res1');
     display(cards2, 'res2');
-    $('#res1').prepend(`<h3>${name_team1}</h3><br>`);
-    $('#res2').prepend(`<h3>${name_team2}</h3><br>`);
+    $('#res1').prepend(`<p>\
+        &#9824; ${points(cards1, der == 1, 'spades')} &#8212; \
+        &#9829; ${points(cards1, der == 1, 'hearts')} &#8212; \
+        &#9827; ${points(cards1, der == 1, 'clubs')} &#8212; \
+        &#9830; ${points(cards1, der == 1, 'diamonds')} &#8212; \
+        SA ${points(cards1, der == 1, 'SA')} &#8212; \
+        TA ${points(cards1, der == 1, 'TA')}\
+    <br>${(der == 1?'inclus le 10 de der':'')}\
+    <br>Attention B&R non compt&eacute;e\
+    </p><br>`);
+    $('#res2').prepend(`<p>\
+        &#9824; ${points(cards2, der == 2, 'spades')} &#8212; \
+        &#9829; ${points(cards2, der == 2, 'hearts')} &#8212; \
+        &#9827; ${points(cards2, der == 2, 'clubs')} &#8212; \
+        &#9830; ${points(cards2, der == 2, 'diamonds')} &#8212; \
+        SA ${points(cards2, der == 2, 'SA')} &#8212; \
+        TA ${points(cards2, der == 2, 'TA')}\
+    <br>${(der == 2?'inclus le 10 de der':'')}\
+    <br>Attention B&R non compt&eacute;e\
+    </p><br>`);
+    $('#res1').prepend(`<h3>${name_team1}</h3>`);
+    $('#res2').prepend(`<h3>${name_team2}</h3>`);
 }
 
 var seated = 0;
@@ -93,6 +141,7 @@ function reset() {
     $('#order').html(`<div class="valign">XX</div>`);
     $('#order').html(`<div class="valign">XX</div>`);
     last_card_played = false;
+    card_played = null;
     seated = 0;
 
     display_table([null,null,null,null]);

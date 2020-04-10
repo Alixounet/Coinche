@@ -11,7 +11,7 @@ class CoincheGame:
         print('Starting new game!')
         self.players = []
         self.cards = [ "A", "7", "8", "9", "10", "J", "Q", "K" ]
-        # self.cards = [ "A" ]
+        self.cards = [ "A", "9" ]
         self.suits = [ "diamonds", "hearts", "spades", "clubs" ]
         self.deck = []
         self.played = {}
@@ -134,26 +134,28 @@ class CoincheGame:
     async def playing(self, uid, card, chair):
         print('Playing')
         self.picked_up = False
-        if not uid in self.played:
-            self.remove_card_from_deck(card)
-            self.played[uid] = True
-            self.table[chair-1] = card
-            for p in self.players:
-                infos = {
-                    'type': 'table',
-                    'cards': self.table,
-                    'last': self.last,
-                    'chair': (self.chairs[uid]+1)
-                }
-                await p['ws'].send(json.dumps(infos))
-            for p in self.spectators:
-                infos = {
-                    'type': 'table',
-                    'cards': self.table,
-                    'last': self.last,
-                    'chair': (self.chairs[uid]+1)
-                }
-                await p['ws'].send(json.dumps(infos))
+        self.remove_card_from_deck(card)
+        if uid in self.played:
+            self.deck.append(self.played[uid])
+        self.played[uid] = card
+        self.table[chair-1] = card
+        for p in self.players:
+            infos = {
+                'type': 'table',
+                'cards': self.table,
+                'last': self.last,
+                'chair': (self.chairs[uid]+1)
+            }
+            await p['ws'].send(json.dumps(infos))
+        for p in self.spectators:
+            infos = {
+                'type': 'table',
+                'cards': self.table,
+                'last': self.last,
+                'chair': (self.chairs[uid]+1)
+            }
+            await p['ws'].send(json.dumps(infos))
+
 
     
     async def hand_done(self, team):
@@ -185,14 +187,16 @@ class CoincheGame:
                 infos = {
                     'type': 'final',
                     'team1': self.teams[1],
-                    'team2': self.teams[2]
+                    'team2': self.teams[2],
+                    'der': team
                 }
                 await p['ws'].send(json.dumps(infos))
             for p in self.spectators:
                 infos = {
                     'type': 'final',
                     'team1': self.teams[1],
-                    'team2': self.teams[2]
+                    'team2': self.teams[2],
+                    'der': team
                 }
                 await p['ws'].send(json.dumps(infos))
 

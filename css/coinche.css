@@ -222,3 +222,17 @@ html {
     border-radius: 0px 0px 5px 5px;
     color: white;
 }
+
+.clickable:hover {
+    cursor: pointer !important;
+}
+
+.button {
+    border: solid 1px black;
+    box-shadow: 2px 2px 5px #00000088;
+}
+
+.button:hover {
+    background: #2D69DA !important;
+    color: white !important;
+}
