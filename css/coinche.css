@@ -119,7 +119,8 @@ html {
     /* background-image: url('cards.png'); */
     /* height: 100px; */
     /* width: 90px; */
-    background-image: url('cardset.png');
+    /* background-image: url('cardset.png'); */
+    background-image: url('cardset.svg');
     height: 190px;
     width: 131px;
     border-radius: 10px;
@@ -141,19 +142,19 @@ html {
     background-position-y:100px;
 } */
 
-.card .clubs { background-position-y:   -7px; }
-.card .diamonds { background-position-y: 603.25px; }
-.card .hearts { background-position-y: 399.5px; }
-.card .spades { background-position-y: 196.75px; }
+.card .clubs { background-position-y:   7px; }
+.card .diamonds { background-position-y: 620.25px; }
+.card .hearts { background-position-y: 419.5px; }
+.card .spades { background-position-y: 219.75px; }
 
-.card .vA  { background-position-x: -1px; }
-.card .v7  { background-position-x: 929.75px; }
-.card .v8  { background-position-x: 796.75px; }
-.card .v9  { background-position-x: 663.75px; }
-.card .v10 { background-position-x: 530.75px; }
-.card .vJ  { background-position-x: 397.75px; }
-.card .vQ  { background-position-x: 264.75px; }
-.card .vK  { background-position-x: 131.75px; }
+.card .vA  { background-position-x: 3px; }
+.card .v7  { background-position-x: 943.75px; }
+.card .v8  { background-position-x: 812.75px; }
+.card .v9  { background-position-x: 681.75px; }
+.card .v10 { background-position-x: 551.75px; }
+.card .vJ  { background-position-x: 420.75px; }
+.card .vQ  { background-position-x: 289.75px; }
+.card .vK  { background-position-x: 158.75px; }
 
 .null {
     background-color: #00000066;

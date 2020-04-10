@@ -1,0 +1,3148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="1725.9794"
+   height="813.24432"
+   id="svg1748"
+   sodipodi:docname="cardset.svg"
+   viewBox="0 0 949.28865 447.28438"
+   inkscape:version="1.0beta1 (32d4812, 2019-09-19)">
+  <metadata
+     id="metadata1752">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Contemporary design deck of playing card</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     scale-x="0.55"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     inkscape:document-rotation="0"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="907"
+     id="namedview1750"
+     showgrid="false"
+     viewbox-width="1729"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.75976086"
+     inkscape:cx="1027.732"
+     inkscape:cy="510.65451"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1748" />
+  <title
+     id="title833">Contemporary design deck of playing card</title>
+  <desc
+     id="desc835">Contemporary design deck of playing card with typographic face cards - Published by Betzaar.com under the CreativeCommons Attribution+ShareAlike licence</desc>
+  <defs
+     id="defs938">
+    <!-- Card outlines -->
+    <rect
+       id="out"
+       width="72"
+       height="110"
+       rx="6"
+       fill="none"
+       stroke="black"
+       stroke-width=".5"
+       x="0"
+       y="0" />
+    <g
+       id="out_club">
+      <use
+         xlink:href="#out"
+         id="use838"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         x="5"
+         y="35"
+         transform="scale(0.5)"
+         xlink:href="#club"
+         id="use840"
+         width="100%"
+         height="100%" />
+      <use
+         x="5"
+         y="35"
+         transform="matrix(-0.5,0,0,-0.5,72,110)"
+         xlink:href="#club"
+         id="use842"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       id="out_diamond">
+      <use
+         xlink:href="#out"
+         id="use845"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         x="6"
+         y="35"
+         transform="scale(0.5)"
+         xlink:href="#diamond"
+         id="use847"
+         width="100%"
+         height="100%" />
+      <use
+         x="6"
+         y="35"
+         transform="matrix(-0.5,0,0,-0.5,72,110)"
+         xlink:href="#diamond"
+         id="use849"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       id="out_heart">
+      <use
+         xlink:href="#out"
+         id="use852"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         x="5"
+         y="35"
+         transform="scale(0.5)"
+         xlink:href="#heart"
+         id="use854"
+         width="100%"
+         height="100%" />
+      <use
+         x="5"
+         y="35"
+         transform="matrix(-0.5,0,0,-0.5,72,110)"
+         xlink:href="#heart"
+         id="use856"
+         width="100%"
+         height="100%" />
+    </g>
+    <g
+       id="out_spade">
+      <use
+         xlink:href="#out"
+         id="use859"
+         x="0"
+         y="0"
+         width="100%"
+         height="100%" />
+      <use
+         x="5"
+         y="35"
+         transform="scale(0.5)"
+         xlink:href="#spade"
+         id="use861"
+         width="100%"
+         height="100%" />
+      <use
+         x="5"
+         y="35"
+         transform="matrix(-0.5,0,0,-0.5,72,110)"
+         xlink:href="#spade"
+         id="use863"
+         width="100%"
+         height="100%" />
+    </g>
+    <!-- Rank text -->
+    <g
+       id="r1">
+      <text
+         x="2"
+         y="15"
+         id="text866">A</text>
+      <text
+         x="2"
+         y="15"
+         transform="rotate(180,36,55)"
+         id="text868">A</text>
+    </g>
+    <g
+       id="r2">
+      <text
+         x="2"
+         y="15"
+         id="text871">2</text>
+      <text
+         x="2"
+         y="15"
+         transform="rotate(180,36,55)"
+         id="text873">2</text>
+    </g>
+    <g
+       id="r3">
+      <text
+         x="2"
+         y="15"
+         id="text876">3</text>
+      <text
+         x="2"
+         y="15"
+         transform="rotate(180,36,55)"
+         id="text878">3</text>
+    </g>
+    <g
+       id="r4">
+      <text
+         x="2"
+         y="15"
+         id="text881">4</text>
+      <text
+         x="2"
+         y="15"
+         transform="rotate(180,36,55)"
+         id="text883">4</text>
+    </g>
+    <g
+       id="r5">
+      <text
+         x="2"
+         y="15"
+         id="text886">5</text>
+      <text
+         x="2"
+         y="15"
+         transform="rotate(180,36,55)"
+         id="text888">5</text>
+    </g>
+    <g
+       id="r6">
+      <text
+         x="2"
+         y="15"
+         id="text891">6</text>
+      <text
+         x="2"
+         y="15"
+         transform="rotate(180,36,55)"
+         id="text893">6</text>
+    </g>
+    <g
+       id="r7">
+      <text
+         x="2"
+         y="15"
+         id="text896">7</text>
+      <text
+         x="2"
+         y="15"
+         transform="rotate(180,36,55)"
+         id="text898">7</text>
+    </g>
+    <g
+       id="r8">
+      <text
+         x="2"
+         y="15"
+         id="text901">8</text>
+      <text
+         x="2"
+         y="15"
+         transform="rotate(180,36,55)"
+         id="text903">8</text>
+    </g>
+    <g
+       id="r9">
+      <text
+         x="2"
+         y="15"
+         id="text906">9</text>
+      <text
+         x="2"
+         y="15"
+         transform="rotate(180,36,55)"
+         id="text908">9</text>
+    </g>
+    <g
+       id="r10">
+      <text
+         x="2"
+         y="15"
+         id="text911">10</text>
+      <text
+         x="2"
+         y="15"
+         transform="rotate(180,36,55)"
+         id="text913">10</text>
+    </g>
+    <g
+       id="r11">
+      <text
+         x="2"
+         y="15"
+         id="text916">J</text>
+      <text
+         x="2"
+         y="15"
+         transform="rotate(180,36,55)"
+         id="text918">J</text>
+    </g>
+    <g
+       id="r12">
+      <text
+         x="2"
+         y="15"
+         id="text921">Q</text>
+      <text
+         x="2"
+         y="15"
+         transform="rotate(180,36,55)"
+         id="text923">Q</text>
+    </g>
+    <g
+       id="r13">
+      <text
+         x="2"
+         y="15"
+         id="text926">K</text>
+      <text
+         x="2"
+         y="15"
+         transform="rotate(180,36,55)"
+         id="text928">K</text>
+    </g>
+    <!-- Club -->
+    <path
+       id="club"
+       d="M 5.2157714,5.882057 C 4.7718857,5.271543 4.328,4.494857 4.328,3.458743 4.328,1.461029 5.9186286,0 7.8610286,0 c 1.9792,0 3.5330284,1.498286 3.5330284,3.458743 0,1.035886 -0.443886,1.812571 -0.888,2.423314 l 0.09257,0.09257 c 0.536457,-0.388343 1.3504,-0.647543 1.831314,-0.647543 1.9424,0 3.2928,1.701714 3.2928,3.5515432 0,2.0347418 -1.572343,3.6070848 -3.551772,3.6070848 -1.072685,0 -2.5897134,-0.610514 -3.6438854,-2.182857 h -0.074055 c 0.258971,3.162974 0.666286,4.383774 1.6649144,5.586288 V 16 H 5.6045714 V 15.889143 C 6.6034286,14.686629 7.0105143,13.465829 7.2694857,10.302857 H 7.1954286 C 6.1408,11.874971 4.6242286,12.485714 3.5515429,12.485714 1.5721143,12.485714 0,10.913371 0,8.8786292 0,7.0288 1.3501714,5.327086 3.2925714,5.327086 c 0.4809143,0 1.2946286,0.2592 1.8310857,0.647543 l 0.092114,-0.09257 z"
+       inkscape:connector-curvature="0" />
+    <!-- Diamond -->
+    <path
+       id="diamond"
+       d="M 11.6592,8 5.8212571,16 0,8 5.8212571,0 Z"
+       inkscape:connector-curvature="0" />
+    <!-- Heart -->
+    <path
+       id="heart"
+       d="M 6.6448,2.994057 C 7.192,0.978743 8.5837716,0 10.058971,0 c 1.773486,0 3.197943,1.650286 3.197943,3.857371 0,2.571429 -1.209143,4.452572 -2.452343,6.198629 -1.1924564,1.669714 -3.5460567,4.548343 -4.1595424,5.258286 H 6.6118857 C 5.9986286,14.604343 3.6459429,11.725714 2.4523429,10.056 1.2093714,8.309943 0,6.4288 0,3.857371 0,1.650286 1.4256,0 3.1984,0 4.6729143,0 6.0649143,0.978743 6.6121143,2.994057 Z"
+       inkscape:connector-curvature="0" />
+    <!-- Spade -->
+    <path
+       id="spade"
+       d="m 8.7382856,16 h -4.290057 v -0.105371 c 0.9494857,-1.142858 1.3010285,-2.303543 1.5824,-4.765029 H 5.9252571 C 5.3801143,12.307657 4.3426286,12.800229 3.2528,12.800229 1.1430857,12.800229 0,11.3056 0,9.2484572 0,7.472457 1.7933714,5.397714 2.8662857,4.167086 4.0969143,2.760457 5.7142857,0.931886 6.5757714,0 h 0.0352 c 0.8614857,0.931886 2.4790862,2.760457 3.7099426,4.167086 1.072229,1.230628 2.865829,3.305371 2.865829,5.0813712 0,2.0571428 -1.142629,3.5517718 -3.2525714,3.5517718 -1.090057,0 -2.127543,-0.492343 -2.6722287,-1.670629 h -0.1056 c 0.2811428,2.461714 0.6331428,3.622171 1.5821717,4.765029 V 16 Z"
+       inkscape:connector-curvature="0" />
+    <!-- J -->
+    <path
+       id="jack"
+       d="m 0.461668,32.107515 c 0,0 2.686087,0.671517 5.372157,0.671517 0.58758,0 1.17514,-0.04196 1.72076,-0.126486 0.71349,-0.545609 1.8047,-2.266372 2.30833,-5.372142 0.71351,-4.364865 3.60943,-24.594334 3.60943,-24.594334 L 9.233385,1.804703 C 9.233385,1.301064 9.485195,0.377729 9.778975,0 h 11.66761 l -0.46165,2.181849 -3.69334,0.420282 c 0,0 -2.68607,18.634614 -3.81925,24.258575 -1.21715,6.421388 -3.73532,8.897609 -7.97429,8.897609 -2.77001,0 -4.40684,-0.881367 -5.498055,-2.098492 l 0.461668,-1.552302 z"
+       inkscape:connector-curvature="0" />
+    <!-- Q -->
+    <path
+       id="queen"
+       d="m 29.617505,30.215686 c -0.84568,1.514307 -2.1839,2.817314 -5.88163,2.817314 -4.57764,0 -11.83222,-4.155537 -16.023475,-8.311074 C 2.18294,24.721926 0,20.953769 0,15.389575 0,7.606746 4.71901,0 12.290045,0 c 5.52948,0 7.74859,3.73294 7.74859,9.332351 0,6.726336 -3.55734,13.347023 -9.40327,15.002194 6.79678,4.120321 11.65664,5.635116 14.89606,5.635116 1.69088,0 2.88775,-0.316948 3.87381,-0.599169 z M 10.740525,2.746881 c -5.528485,0 -7.782825,6.726335 -7.782825,11.234037 0,4.402052 1.69087,7.994127 6.30422,7.994127 5.529475,0 7.782845,-6.69112 7.782845,-11.234037 0,-4.402053 -1.68991,-7.994127 -6.30424,-7.994127 z"
+       inkscape:connector-curvature="0" />
+    <!-- K -->
+    <path
+       id="king"
+       d="M 0.44567,28.254932 4.54576,27.408794 8.06647,2.852233 4.01096,1.916344 C 4.01096,1.381551 4.27834,0.401094 4.59032,0 h 11.943725 l -0.49023,2.316821 -3.92183,0.446281 -3.832685,24.734206 4.367485,0.311964 c 0,0.668493 -0.31196,1.916962 -0.75764,2.495704 H 0 Z m 26.338565,1.916964 c -0.57936,0.445662 -1.20328,0.935889 -3.20873,0.935889 -1.82723,0 -3.38705,-1.069588 -5.25883,-3.476159 -1.38155,-1.871159 -4.72399,-7.263661 -6.64035,-10.383292 -0.84675,-1.38155 -1.15872,-2.719153 -1.15872,-2.719153 l 13.0579,-11.676329 -3.8327,-0.935889 c 0,-0.534793 0.26738,-1.515249 0.57934,-1.916344 h 11.05244 l -0.49025,2.316821 -2.85224,0.490845 -13.36984,11.408934 c 1.69351,3.119627 6.19468,9.403455 7.84364,11.275233 1.51525,1.738698 3.1642,3.342459 4.27834,4.189836 z"
+       inkscape:connector-curvature="0" />
+  </defs>
+  <!-- And now the actual cards -->
+  <!-- Club suit -->
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r1"
+     id="use942"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(-1.9824219,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="28"
+     y="47"
+     xlink:href="#club"
+     id="use944"
+     width="100%"
+     height="100%"
+     transform="translate(-1.9824219,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r2"
+     id="use950"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(70.017578,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="28"
+     y="16"
+     xlink:href="#club"
+     id="use952"
+     width="100%"
+     height="100%"
+     transform="translate(70.017578,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="28"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,71.008789,51.871094)"
+     id="use954"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r3"
+     id="use960"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(142.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="28"
+     y="47"
+     xlink:href="#club"
+     id="use962"
+     width="100%"
+     height="100%"
+     transform="translate(142.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="28"
+     y="16"
+     xlink:href="#club"
+     id="use964"
+     width="100%"
+     height="100%"
+     transform="translate(142.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="28"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,107.00879,51.871094)"
+     id="use966"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r4"
+     id="use972"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(214.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     id="use974"
+     width="100%"
+     height="100%"
+     transform="translate(214.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     id="use976"
+     width="100%"
+     height="100%"
+     transform="translate(214.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,143.00879,51.871094)"
+     id="use978"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,143.00879,51.871094)"
+     id="use980"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r5"
+     id="use986"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="28"
+     y="47"
+     xlink:href="#club"
+     id="use988"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     id="use990"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     id="use992"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,179.00879,51.871094)"
+     id="use994"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,179.00879,51.871094)"
+     id="use996"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r6"
+     id="use1002"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="47"
+     xlink:href="#club"
+     id="use1004"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="47"
+     xlink:href="#club"
+     id="use1006"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     id="use1008"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     id="use1010"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,215.00879,51.871094)"
+     id="use1012"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,215.00879,51.871094)"
+     id="use1014"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r7"
+     id="use1020"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="28"
+     y="32"
+     xlink:href="#club"
+     id="use1022"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="47"
+     xlink:href="#club"
+     id="use1024"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="47"
+     xlink:href="#club"
+     id="use1026"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     id="use1028"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     id="use1030"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,251.00879,51.871094)"
+     id="use1032"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,251.00879,51.871094)"
+     id="use1034"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r8"
+     id="use1040"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     id="use1042"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     id="use1044"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="36"
+     xlink:href="#club"
+     id="use1046"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="36"
+     xlink:href="#club"
+     id="use1048"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,287.00879,51.871094)"
+     id="use1050"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,287.00879,51.871094)"
+     id="use1052"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="36"
+     xlink:href="#club"
+     transform="rotate(180,287.00879,51.871094)"
+     id="use1054"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="36"
+     xlink:href="#club"
+     transform="rotate(180,287.00879,51.871094)"
+     id="use1056"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r9"
+     id="use1062"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="28"
+     y="47"
+     xlink:href="#club"
+     id="use1064"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     id="use1066"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     id="use1068"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="36"
+     xlink:href="#club"
+     id="use1070"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="36"
+     xlink:href="#club"
+     id="use1072"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,323.00879,51.871094)"
+     id="use1074"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,323.00879,51.871094)"
+     id="use1076"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="36"
+     xlink:href="#club"
+     transform="rotate(180,323.00879,51.871094)"
+     id="use1078"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="36"
+     xlink:href="#club"
+     transform="rotate(180,323.00879,51.871094)"
+     id="use1080"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r10"
+     id="use1086"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     id="use1088"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     id="use1090"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="36"
+     xlink:href="#club"
+     id="use1092"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="36"
+     xlink:href="#club"
+     id="use1094"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,359.00879,51.871094)"
+     id="use1096"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="16"
+     xlink:href="#club"
+     transform="rotate(180,359.00879,51.871094)"
+     id="use1098"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="13"
+     y="36"
+     xlink:href="#club"
+     transform="rotate(180,359.00879,51.871094)"
+     id="use1100"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="43"
+     y="36"
+     xlink:href="#club"
+     transform="rotate(180,359.00879,51.871094)"
+     id="use1102"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="28"
+     y="27"
+     xlink:href="#club"
+     id="use1104"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="28"
+     y="27"
+     xlink:href="#club"
+     transform="rotate(180,359.00879,51.871094)"
+     id="use1106"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r11"
+     id="use1112"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(718.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="16"
+     y="18"
+     xlink:href="#jack"
+     id="use1114"
+     width="100%"
+     height="100%"
+     transform="translate(718.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="16"
+     y="18"
+     xlink:href="#jack"
+     transform="rotate(180,395.00879,51.871094)"
+     id="use1116"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r12"
+     id="use1122"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(790.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#queen"
+     id="use1124"
+     width="100%"
+     height="100%"
+     transform="translate(790.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#queen"
+     transform="rotate(180,431.00879,51.871094)"
+     id="use1126"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r13"
+     id="use1132"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(862.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#king"
+     id="use1134"
+     width="100%"
+     height="100%"
+     transform="translate(862.01758,-6.2578125)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#king"
+     transform="rotate(180,467.00879,51.871094)"
+     id="use1136"
+     width="100%"
+     height="100%" />
+  <!-- Diamonds suit -->
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r1"
+     id="use1144"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(-1.9824219,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="47"
+     xlink:href="#diamond"
+     id="use1146"
+     width="100%"
+     height="100%"
+     transform="translate(-1.9824219,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r2"
+     id="use1152"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(70.017578,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="16"
+     xlink:href="#diamond"
+     id="use1154"
+     width="100%"
+     height="100%"
+     transform="translate(70.017578,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,71.008789,106.87109)"
+     id="use1156"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r3"
+     id="use1162"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(142.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="47"
+     xlink:href="#diamond"
+     id="use1164"
+     width="100%"
+     height="100%"
+     transform="translate(142.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="16"
+     xlink:href="#diamond"
+     id="use1166"
+     width="100%"
+     height="100%"
+     transform="translate(142.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,107.00879,106.87109)"
+     id="use1168"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r4"
+     id="use1174"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(214.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     id="use1176"
+     width="100%"
+     height="100%"
+     transform="translate(214.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     id="use1178"
+     width="100%"
+     height="100%"
+     transform="translate(214.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,143.00879,106.87109)"
+     id="use1180"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,143.00879,106.87109)"
+     id="use1182"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r5"
+     id="use1188"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="47"
+     xlink:href="#diamond"
+     id="use1190"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     id="use1192"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     id="use1194"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,179.00879,106.87109)"
+     id="use1196"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,179.00879,106.87109)"
+     id="use1198"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r6"
+     id="use1204"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="47"
+     xlink:href="#diamond"
+     id="use1206"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="47"
+     xlink:href="#diamond"
+     id="use1208"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     id="use1210"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     id="use1212"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,215.00879,106.87109)"
+     id="use1214"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,215.00879,106.87109)"
+     id="use1216"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r7"
+     id="use1222"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="32"
+     xlink:href="#diamond"
+     id="use1224"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="47"
+     xlink:href="#diamond"
+     id="use1226"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="47"
+     xlink:href="#diamond"
+     id="use1228"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     id="use1230"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     id="use1232"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,251.00879,106.87109)"
+     id="use1234"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,251.00879,106.87109)"
+     id="use1236"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r8"
+     id="use1242"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     id="use1244"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     id="use1246"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="36"
+     xlink:href="#diamond"
+     id="use1248"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="36"
+     xlink:href="#diamond"
+     id="use1250"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,287.00879,106.87109)"
+     id="use1252"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,287.00879,106.87109)"
+     id="use1254"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="36"
+     xlink:href="#diamond"
+     transform="rotate(180,287.00879,106.87109)"
+     id="use1256"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="36"
+     xlink:href="#diamond"
+     transform="rotate(180,287.00879,106.87109)"
+     id="use1258"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r9"
+     id="use1264"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="47"
+     xlink:href="#diamond"
+     id="use1266"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     id="use1268"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     id="use1270"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="36"
+     xlink:href="#diamond"
+     id="use1272"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="36"
+     xlink:href="#diamond"
+     id="use1274"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,323.00879,106.87109)"
+     id="use1276"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,323.00879,106.87109)"
+     id="use1278"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="36"
+     xlink:href="#diamond"
+     transform="rotate(180,323.00879,106.87109)"
+     id="use1280"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="36"
+     xlink:href="#diamond"
+     transform="rotate(180,323.00879,106.87109)"
+     id="use1282"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r10"
+     id="use1288"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     id="use1290"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     id="use1292"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="36"
+     xlink:href="#diamond"
+     id="use1294"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="36"
+     xlink:href="#diamond"
+     id="use1296"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,359.00879,106.87109)"
+     id="use1298"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#diamond"
+     transform="rotate(180,359.00879,106.87109)"
+     id="use1300"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="36"
+     xlink:href="#diamond"
+     transform="rotate(180,359.00879,106.87109)"
+     id="use1302"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="45"
+     y="36"
+     xlink:href="#diamond"
+     transform="rotate(180,359.00879,106.87109)"
+     id="use1304"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="27"
+     xlink:href="#diamond"
+     id="use1306"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="27"
+     xlink:href="#diamond"
+     transform="rotate(180,359.00879,106.87109)"
+     id="use1308"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r11"
+     id="use1314"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(718.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="16"
+     y="18"
+     xlink:href="#jack"
+     id="use1316"
+     width="100%"
+     height="100%"
+     transform="translate(718.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="16"
+     y="18"
+     xlink:href="#jack"
+     transform="rotate(180,395.00879,106.87109)"
+     id="use1318"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r12"
+     id="use1324"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(790.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#queen"
+     id="use1326"
+     width="100%"
+     height="100%"
+     transform="translate(790.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#queen"
+     transform="rotate(180,431.00879,106.87109)"
+     id="use1328"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r13"
+     id="use1334"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(862.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#king"
+     id="use1336"
+     width="100%"
+     height="100%"
+     transform="translate(862.01758,103.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#king"
+     transform="rotate(180,467.00879,106.87109)"
+     id="use1338"
+     width="100%"
+     height="100%" />
+  <!-- Hearts suit -->
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r1"
+     id="use1346"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(-1.9824219,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="47"
+     xlink:href="#heart"
+     id="use1348"
+     width="100%"
+     height="100%"
+     transform="translate(-1.9824219,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r2"
+     id="use1354"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(70.017578,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="29"
+     y="16"
+     xlink:href="#heart"
+     id="use1356"
+     width="100%"
+     height="100%"
+     transform="translate(70.017578,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="29"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,71.008789,161.87109)"
+     id="use1358"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r3"
+     id="use1364"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(142.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="29"
+     y="47"
+     xlink:href="#heart"
+     id="use1366"
+     width="100%"
+     height="100%"
+     transform="translate(142.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="29"
+     y="16"
+     xlink:href="#heart"
+     id="use1368"
+     width="100%"
+     height="100%"
+     transform="translate(142.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="29"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,107.00879,161.87109)"
+     id="use1370"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r4"
+     id="use1376"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(214.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     id="use1378"
+     width="100%"
+     height="100%"
+     transform="translate(214.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     id="use1380"
+     width="100%"
+     height="100%"
+     transform="translate(214.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,143.00879,161.87109)"
+     id="use1382"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,143.00879,161.87109)"
+     id="use1384"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r5"
+     id="use1390"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="29"
+     y="47"
+     xlink:href="#heart"
+     id="use1392"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     id="use1394"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     id="use1396"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,179.00879,161.87109)"
+     id="use1398"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,179.00879,161.87109)"
+     id="use1400"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r6"
+     id="use1406"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="47"
+     xlink:href="#heart"
+     id="use1408"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="47"
+     xlink:href="#heart"
+     id="use1410"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     id="use1412"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     id="use1414"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,215.00879,161.87109)"
+     id="use1416"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,215.00879,161.87109)"
+     id="use1418"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r7"
+     id="use1424"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="29"
+     y="32"
+     xlink:href="#heart"
+     id="use1426"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="47"
+     xlink:href="#heart"
+     id="use1428"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="47"
+     xlink:href="#heart"
+     id="use1430"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     id="use1432"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     id="use1434"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,251.00879,161.87109)"
+     id="use1436"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,251.00879,161.87109)"
+     id="use1438"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r8"
+     id="use1444"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     id="use1446"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     id="use1448"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="36"
+     xlink:href="#heart"
+     id="use1450"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="36"
+     xlink:href="#heart"
+     id="use1452"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,287.00879,161.87109)"
+     id="use1454"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,287.00879,161.87109)"
+     id="use1456"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="36"
+     xlink:href="#heart"
+     transform="rotate(180,287.00879,161.87109)"
+     id="use1458"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="36"
+     xlink:href="#heart"
+     transform="rotate(180,287.00879,161.87109)"
+     id="use1460"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r9"
+     id="use1466"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="47"
+     xlink:href="#heart"
+     id="use1468"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     id="use1470"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     id="use1472"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="36"
+     xlink:href="#heart"
+     id="use1474"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="36"
+     xlink:href="#heart"
+     id="use1476"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,323.00879,161.87109)"
+     id="use1478"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,323.00879,161.87109)"
+     id="use1480"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="36"
+     xlink:href="#heart"
+     transform="rotate(180,323.00879,161.87109)"
+     id="use1482"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="36"
+     xlink:href="#heart"
+     transform="rotate(180,323.00879,161.87109)"
+     id="use1484"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r10"
+     id="use1490"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     id="use1492"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     id="use1494"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="36"
+     xlink:href="#heart"
+     id="use1496"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="36"
+     xlink:href="#heart"
+     id="use1498"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,359.00879,161.87109)"
+     id="use1500"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="16"
+     xlink:href="#heart"
+     transform="rotate(180,359.00879,161.87109)"
+     id="use1502"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="15"
+     y="36"
+     xlink:href="#heart"
+     transform="rotate(180,359.00879,161.87109)"
+     id="use1504"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="44"
+     y="36"
+     xlink:href="#heart"
+     transform="rotate(180,359.00879,161.87109)"
+     id="use1506"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="29"
+     y="27"
+     xlink:href="#heart"
+     id="use1508"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="29"
+     y="27"
+     xlink:href="#heart"
+     transform="rotate(180,359.00879,161.87109)"
+     id="use1510"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r11"
+     id="use1516"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(718.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="16"
+     y="18"
+     xlink:href="#jack"
+     id="use1518"
+     width="100%"
+     height="100%"
+     transform="translate(718.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="16"
+     y="18"
+     xlink:href="#jack"
+     transform="rotate(180,395.00879,161.87109)"
+     id="use1520"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r12"
+     id="use1526"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(790.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#queen"
+     id="use1528"
+     width="100%"
+     height="100%"
+     transform="translate(790.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#queen"
+     transform="rotate(180,431.00879,161.87109)"
+     id="use1530"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     xlink:href="#r13"
+     id="use1536"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(862.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#king"
+     id="use1538"
+     width="100%"
+     height="100%"
+     transform="translate(862.01758,213.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#king"
+     transform="rotate(180,467.00879,161.87109)"
+     id="use1540"
+     width="100%"
+     height="100%" />
+  <!-- Spades suit -->
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r1"
+     id="use1548"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(-1.9824219,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="12"
+     y="20"
+     xlink:href="#spade"
+     transform="matrix(2,0,0,2,-1.9824219,323.74219)"
+     id="use1550"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r2"
+     id="use1556"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(70.017578,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="30"
+     y="16"
+     xlink:href="#spade"
+     id="use1558"
+     width="100%"
+     height="100%"
+     transform="translate(70.017578,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="30"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,71.008789,216.87109)"
+     id="use1560"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r3"
+     id="use1566"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(142.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="30"
+     y="47"
+     xlink:href="#spade"
+     id="use1568"
+     width="100%"
+     height="100%"
+     transform="translate(142.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="30"
+     y="16"
+     xlink:href="#spade"
+     id="use1570"
+     width="100%"
+     height="100%"
+     transform="translate(142.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="30"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,107.00879,216.87109)"
+     id="use1572"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r4"
+     id="use1578"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(214.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     id="use1580"
+     width="100%"
+     height="100%"
+     transform="translate(214.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     id="use1582"
+     width="100%"
+     height="100%"
+     transform="translate(214.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,143.00879,216.87109)"
+     id="use1584"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,143.00879,216.87109)"
+     id="use1586"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r5"
+     id="use1592"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="29"
+     y="47"
+     xlink:href="#spade"
+     id="use1594"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     id="use1596"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     id="use1598"
+     width="100%"
+     height="100%"
+     transform="translate(286.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,179.00879,216.87109)"
+     id="use1600"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,179.00879,216.87109)"
+     id="use1602"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r6"
+     id="use1608"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="47"
+     xlink:href="#spade"
+     id="use1610"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="47"
+     xlink:href="#spade"
+     id="use1612"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     id="use1614"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     id="use1616"
+     width="100%"
+     height="100%"
+     transform="translate(358.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,215.00879,216.87109)"
+     id="use1618"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,215.00879,216.87109)"
+     id="use1620"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r7"
+     id="use1626"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="29"
+     y="32"
+     xlink:href="#spade"
+     id="use1628"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="47"
+     xlink:href="#spade"
+     id="use1630"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="47"
+     xlink:href="#spade"
+     id="use1632"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     id="use1634"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     id="use1636"
+     width="100%"
+     height="100%"
+     transform="translate(430.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,251.00879,216.87109)"
+     id="use1638"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,251.00879,216.87109)"
+     id="use1640"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r8"
+     id="use1646"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     id="use1648"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     id="use1650"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="36"
+     xlink:href="#spade"
+     id="use1652"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="36"
+     xlink:href="#spade"
+     id="use1654"
+     width="100%"
+     height="100%"
+     transform="translate(502.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,287.00879,216.87109)"
+     id="use1656"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,287.00879,216.87109)"
+     id="use1658"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="36"
+     xlink:href="#spade"
+     transform="rotate(180,287.00879,216.87109)"
+     id="use1660"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="36"
+     xlink:href="#spade"
+     transform="rotate(180,287.00879,216.87109)"
+     id="use1662"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r9"
+     id="use1668"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="29"
+     y="47"
+     xlink:href="#spade"
+     id="use1670"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     id="use1672"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     id="use1674"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="36"
+     xlink:href="#spade"
+     id="use1676"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="36"
+     xlink:href="#spade"
+     id="use1678"
+     width="100%"
+     height="100%"
+     transform="translate(574.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,323.00879,216.87109)"
+     id="use1680"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,323.00879,216.87109)"
+     id="use1682"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="36"
+     xlink:href="#spade"
+     transform="rotate(180,323.00879,216.87109)"
+     id="use1684"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="36"
+     xlink:href="#spade"
+     transform="rotate(180,323.00879,216.87109)"
+     id="use1686"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r10"
+     id="use1692"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     id="use1694"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     id="use1696"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="36"
+     xlink:href="#spade"
+     id="use1698"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="36"
+     xlink:href="#spade"
+     id="use1700"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,359.00879,216.87109)"
+     id="use1702"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="16"
+     xlink:href="#spade"
+     transform="rotate(180,359.00879,216.87109)"
+     id="use1704"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="14"
+     y="36"
+     xlink:href="#spade"
+     transform="rotate(180,359.00879,216.87109)"
+     id="use1706"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="45"
+     y="36"
+     xlink:href="#spade"
+     transform="rotate(180,359.00879,216.87109)"
+     id="use1708"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="29"
+     y="27"
+     xlink:href="#spade"
+     id="use1710"
+     width="100%"
+     height="100%"
+     transform="translate(646.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="29"
+     y="27"
+     xlink:href="#spade"
+     transform="rotate(180,359.00879,216.87109)"
+     id="use1712"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r11"
+     id="use1718"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(718.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="16"
+     y="18"
+     xlink:href="#jack"
+     id="use1720"
+     width="100%"
+     height="100%"
+     transform="translate(718.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="16"
+     y="18"
+     xlink:href="#jack"
+     transform="rotate(180,395.00879,216.87109)"
+     id="use1722"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r12"
+     id="use1728"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(790.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#queen"
+     id="use1730"
+     width="100%"
+     height="100%"
+     transform="translate(790.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#queen"
+     transform="rotate(180,431.00879,216.87109)"
+     id="use1732"
+     width="100%"
+     height="100%" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     xlink:href="#r13"
+     id="use1738"
+     x="0"
+     y="0"
+     width="100%"
+     height="100%"
+     transform="translate(862.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#king"
+     id="use1740"
+     width="100%"
+     height="100%"
+     transform="translate(862.01758,323.74219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="20"
+     y="18"
+     xlink:href="#king"
+     transform="rotate(180,467.00879,216.87109)"
+     id="use1742"
+     width="100%"
+     height="100%" />
+  <use
+     transform="translate(718.11758,-6.2578125)"
+     height="100%"
+     width="100%"
+     id="use375"
+     xlink:href="#club"
+     y="47"
+     x="28"
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1" />
+  <use
+     transform="translate(718.11758,103.74219)"
+     height="100%"
+     width="100%"
+     id="use377"
+     xlink:href="#diamond"
+     y="47"
+     x="30"
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1" />
+  <use
+     transform="translate(718.11758,213.74219)"
+     height="100%"
+     width="100%"
+     id="use379"
+     xlink:href="#heart"
+     y="47"
+     x="30"
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1" />
+  <use
+     transform="translate(718.11758,323.74219)"
+     height="100%"
+     width="100%"
+     id="use381"
+     xlink:href="#spade"
+     y="47"
+     x="29"
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="28"
+     y="47"
+     xlink:href="#club"
+     id="use383"
+     width="100%"
+     height="100%"
+     transform="translate(801.71758,-23.857813)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="47"
+     xlink:href="#diamond"
+     id="use385"
+     width="100%"
+     height="100%"
+     transform="translate(801.71758,86.14219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1"
+     x="30"
+     y="47"
+     xlink:href="#heart"
+     id="use387"
+     width="100%"
+     height="100%"
+     transform="translate(801.71758,196.14219)" />
+  <use
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1"
+     x="29"
+     y="47"
+     xlink:href="#spade"
+     id="use389"
+     width="100%"
+     height="100%"
+     transform="translate(801.71758,306.14219)" />
+  <use
+     transform="translate(876.51758,-26.057813)"
+     height="100%"
+     width="100%"
+     id="use391"
+     xlink:href="#club"
+     y="47"
+     x="28"
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1" />
+  <use
+     transform="translate(876.51758,83.94219)"
+     height="100%"
+     width="100%"
+     id="use393"
+     xlink:href="#diamond"
+     y="47"
+     x="30"
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1" />
+  <use
+     transform="translate(876.51758,193.94219)"
+     height="100%"
+     width="100%"
+     id="use395"
+     xlink:href="#heart"
+     y="47"
+     x="30"
+     style="font-size:12px;font-family:Arial;opacity:1;fill:#ff0000;stop-opacity:1" />
+  <use
+     transform="translate(876.51758,303.94219)"
+     height="100%"
+     width="100%"
+     id="use397"
+     xlink:href="#spade"
+     y="47"
+     x="29"
+     style="font-size:12px;font-family:Arial;opacity:1;stop-opacity:1" />
+</svg>
