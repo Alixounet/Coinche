@@ -113,11 +113,11 @@ html {
     width:25%;
     height: 100%;
     /* background:rgb(66, 66, 66); */
-    background: rgb(73,73,73);
-    background: -moz-linear-gradient(180deg, rgba(73,73,73,1) 0%, rgba(38,38,38,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(73,73,73,1) 0%, rgba(38,38,38,1) 100%);
-    background: linear-gradient(180deg, rgba(73,73,73,1) 0%, rgba(38,38,38,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#494949",endColorstr="#262626",GradientType=1);
+    background: rgb(38,38,38);
+background: -moz-linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(73,73,73,1) 100%);
+background: -webkit-linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(73,73,73,1) 100%);
+background: linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(73,73,73,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#262626",endColorstr="#494949",GradientType=1);
 
     right: 0px;
     top: 0px;
