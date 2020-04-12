@@ -13,7 +13,7 @@ function display(cards, div, cb = null) {
         var card = document.createElement("div");
         var value = document.createElement("div");
         var suit = document.createElement("div");
-        card.className = "card" + (div=='hand'?' clickable':'');
+        card.className = "card" + (div=='hand'?' clickable':'') + (div=='mat'?` tcard p${i+1}`:'');
         value.className = "value";
         if (cards[i] != null) {
             suit.className = "suit " + cards[i]['suit'] + ' v' + cards[i]['value'];
@@ -54,7 +54,8 @@ function display_cards(cards) {
 }
 
 function display_table(cards) {
-    display(cards, 'table');
+    // display(cards, 'table');
+    display(cards, 'mat');
 
 
     if (cards.indexOf(null) == -1 && cards.length == 4) {
@@ -92,7 +93,8 @@ function points(cards, der, suit) {
 function display_results(cards1, cards2, der) {
     console.log(der);
     document.getElementById('hand').innerHTML = '';
-    document.getElementById('table').innerHTML = '';
+    // document.getElementById('table').innerHTML = '';
+    document.getElementById('mat').innerHTML = '';
     document.getElementById('last_hand').innerHTML = '';
     display(cards1, 'res1');
     display(cards2, 'res2');
@@ -124,7 +126,8 @@ var seated = 0;
 function reset() {
     console.log('reset')
     document.getElementById('hand').innerHTML = '';
-    document.getElementById('table').innerHTML = '';
+    // document.getElementById('table').innerHTML = '';
+    document.getElementById('mat').innerHTML = '';
     document.getElementById('last_hand').innerHTML = '';
     document.getElementById('res1').innerHTML = '';
     document.getElementById('res2').innerHTML = '';
