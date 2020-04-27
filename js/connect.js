@@ -10,7 +10,6 @@ var ws = null;
 function wssend(msg) {
    if ("WebSocket" in window) {
       if (ws == null) {
-         // ws = new WebSocket("ws://[2a01:cb15:802d:9200:3945:394a:54cd:a853]:8765");
          ws = new WebSocket("ws://2.7.115.129:8765");
 
 
@@ -24,24 +23,25 @@ function wssend(msg) {
                case 'ack':
                   console.log('Ack received', msg['type'], msg);
                   playing = msg['playing']
-                  reset();
                   if (!msg['playing']) {
                      $('#spectator').show();
-                     $('#room').hide();
-                     display_table(msg['cards']);
-                     display_last_hand(msg['last']);
+                  } else {
+                     $('#pname').show()
                   }
+                  display_table(msg['cards']);
+                  display_last_hand(msg['last']);
+                  break;
                case 'player':
                   if (msg['lplayers'] != 0) {
                      $('#room').html(`<div class="valign">Waiting for ${msg['lplayers']} players...</div>`);
+                  } else if (msg['lchairs'] != 0) {
+                     $('#room').html(`<div class="valign">Waiting for ${msg['lchairs']} seats...</div>`);
+                  } else {
+                     $('#room').hide();
                   }
-                  break;
-               case 'chairwait':
-                  $('#room').html(`<div class="valign">Waiting for ${msg['lchair']} seats...</div>`);
-                  break;
-               case 'taken':
-                  $('#chair'+msg['chair']).removeClass('free');
-                  $('#chair'+msg['chair']).addClass('taken');
+                  update_players(msg['players'])
+                  display_table(msg['cards']);
+                  display_last_hand(msg['last']);
                   break;
                case 'yours':
                   chair_id = msg['chair'];
@@ -68,6 +68,8 @@ function wssend(msg) {
                      $(elem).removeClass('played');
                   });
                   display_cards(msg['cards']);
+                  display_table([null,null,null,null]);
+                  display_last_hand([null,null,null,null]);
                   break;
                case 'newtable':
                   $('#team1').addClass('disable');

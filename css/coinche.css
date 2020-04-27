@@ -114,10 +114,10 @@ html {
     height: 100%;
     /* background:rgb(66, 66, 66); */
     background: rgb(38,38,38);
-background: -moz-linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(73,73,73,1) 100%);
-background: -webkit-linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(73,73,73,1) 100%);
-background: linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(73,73,73,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#262626",endColorstr="#494949",GradientType=1);
+    background: -moz-linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(73,73,73,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(73,73,73,1) 100%);
+    background: linear-gradient(180deg, rgba(38,38,38,1) 0%, rgba(73,73,73,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#262626",endColorstr="#494949",GradientType=1);
 
     right: 0px;
     top: 0px;
@@ -170,6 +170,14 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#262626",endCo
 
 .card .suit.null {
     opacity: 0 !important;
+}
+
+.card .player {
+    position: relative;
+    bottom: 0px;
+    border-radius: 0px 0px 9px 9px;
+    color: white;
+    background-color: #000000;
 }
 
 #order {
@@ -293,4 +301,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#262626",endCo
 }
 .p4 {
     transform: translate(calc(-131px * 1.0), calc(-190px * 0.0));
+}
+
+#pname {
+    position: absolute;
+    bottom: 20px;
+    right: 120px;
+    width: 150px;
+    height: 20px;
 }

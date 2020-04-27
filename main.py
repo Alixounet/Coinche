@@ -16,18 +16,29 @@ class CoincheGame:
         self.deck = []
         self.played = {}
         self.table = [None, None, None, None]
-        self.last = []
+        self.last = [None, None, None, None]
         self.teams = {1:[], 2:[]}
         self.picked_up = False
-        self.chairs = {}
         self.spectators = []
     
     def request_chair(self, chair, uid):
-        for u in self.chairs:
-            if self.chairs[u] == chair:
-                return False
-        self.chairs[uid] = chair
-        return True
+        chairs = {0: False, 1: False, 2: False, 3: False, 4: False }
+        for p in self.players:
+            chairs[p['chair']] = True
+        
+        if not chairs[chair]:
+            for p in self.players:
+                if uid == p['uid']:
+                    p['chair'] = chair
+                    return True
+        return False
+    
+    def count_chairs_available(self):
+        res = 0
+        for p in self.players:
+            if p['chair'] == 0:
+                res += 1
+        return res
     
     def sort_cards(self, cards):
         def cmp_cards(c1, c2):
@@ -41,14 +52,20 @@ class CoincheGame:
         cards.sort(key=cmp_to_key(cmp_cards))
         return cards
     
-    def add_player(self, uid, ws):
+    def add_player(self, uid, ws, name):
         print('Add player')
         if len(self.players) < 4:
-            self.players.append({'uid': uid, 'ws': ws})
+            self.players.append({'uid': uid, 'ws': ws, 'name': name, 'chair': 0})
             return True
         else:
-            self.spectators.append({'uid': uid, 'ws': ws})
+            self.spectators.append({'uid': uid, 'ws': ws, 'name': name, 'chair': 0})
             return False
+    
+    async def change_name(self, uid, name):
+        for p in self.players:
+            if p['uid'] == uid:
+                p['name'] = name
+                await self.update_players()
      
     def nb_player_left(self):
         return 4 - len(self.players)
@@ -74,21 +91,16 @@ class CoincheGame:
         self.deck = []
         self.played = {}
         self.table = [None, None, None, None]
-        self.last = []
-        self.chairs = {}
+        self.last = [None, None, None, None]
         self.teams = {1:[], 2:[]}
         self.picked_up = False
-        for p in self.players:
+        self.reset()
+        await self.update_players()
+    
+    async def reset(self):
+        for p in self.players + self.spectators:
             infos = {
                 'type': 'reset'
-            }
-            await p['ws'].send(json.dumps(infos))
-
-    async def wait_chairs(self):
-        for p in self.players:
-            infos = {
-                'type': 'chairwait',
-                'lchair': (4-len(self.chairs))
             }
             await p['ws'].send(json.dumps(infos))
 
@@ -99,7 +111,7 @@ class CoincheGame:
 
         self.deck = []
         self.table = [None, None, None, None]
-        self.last = []
+        self.last = [None, None, None, None]
         self.teams = {1:[], 2:[]}
         self.picked_up = False
         for s in self.suits:
@@ -144,7 +156,7 @@ class CoincheGame:
                 'type': 'table',
                 'cards': self.table,
                 'last': self.last,
-                'chair': (self.chairs[uid]+1)
+                'chair': chair
             }
             await p['ws'].send(json.dumps(infos))
         for p in self.spectators:
@@ -152,11 +164,26 @@ class CoincheGame:
                 'type': 'table',
                 'cards': self.table,
                 'last': self.last,
-                'chair': (self.chairs[uid]+1)
+                'chair': chair
             }
             await p['ws'].send(json.dumps(infos))
 
+    async def update_players(self):
+        players = []
+        for p in self.players:
+            players.append({'chair': p['chair'], 'name': p['name']})
 
+        for p in self.players + self.spectators:
+            infos = {
+                'type': 'player',
+                'lplayers': game.nb_player_left(),
+                'lchairs': game.count_chairs_available(),
+                'players': players,
+                'cards': self.table,
+                'last': self.last,
+
+            }
+            await p['ws'].send(json.dumps(infos))
     
     async def hand_done(self, team):
         print('Hand done')
@@ -225,49 +252,29 @@ async def message(websocket, path):
             event, val = msg.split('?')
             val = eval(val)
             if event == 'user':
-                res = game.add_player(uid, websocket)
+                res = game.add_player(uid, websocket, val['name'])
                 infos = {
                     'type': 'ack',
                     'playing': res,
                     'uid': uid,
-                    'lplayers': game.nb_player_left(),
                     'cards': game.table,
                     'last': game.last
                 }
                 await websocket.send(json.dumps(infos))
-                if game.nb_player_left() > 0:
-                    for p in game.players:
-                        infos = {
-                            'type': 'player',
-                            'lplayers': game.nb_player_left()
-                        }
-                        await p['ws'].send(json.dumps(infos))
-                if res and game.nb_player_left() == 0:
-                    await game.wait_chairs()
+
+                if res:
+                    await game.reset()
+                await game.update_players()
             elif event == 'chair':
                 if game.request_chair(val, uid):
                     infos = {
                         'type': 'yours',
-                        'chair': (val+1)
+                        'chair': val
                     }
                     await websocket.send(json.dumps(infos))
-                    for p in game.players + game.spectators:
-                        if p['uid'] != uid:
-                            infos = {
-                                'type': 'taken',
-                                'chair': (val+1)
-                            }
-                            await p['ws'].send(json.dumps(infos))
-                else:
-                    infos = {
-                        'type': 'nope'
-                    }
-                    await websocket.send(json.dumps(infos))
-                if len(game.chairs) == 4:
+                await game.update_players()
+                if game.count_chairs_available() == 0:
                     await game.start_game()
-                else:
-                    await game.wait_chairs()
-
             elif event == 'newgame':
                 if game.nb_player_left() == 0:
                     await game.start_game()
@@ -276,6 +283,8 @@ async def message(websocket, path):
                 await game.playing(uid, card, val['chair'])
             elif event == 'pickup':
                 await game.hand_done(val)
+            elif event == 'name':
+                await game.change_name(uid, val['name'])
 
         
 

@@ -35,6 +35,13 @@ function display(cards, div, cb = null) {
             card.appendChild(value);
             card.appendChild(suit);
         }
+
+        if (['mat', 'last_hand'].indexOf(div) != -1 && names[i] != '') {
+            var player = document.createElement("div");
+            player.className = 'player'
+            player.innerHTML = names[i];
+            card.appendChild(player);
+        }
         document.getElementById(div).appendChild(card);
     }
 }
@@ -54,7 +61,6 @@ function display_cards(cards) {
 }
 
 function display_table(cards) {
-    // display(cards, 'table');
     display(cards, 'mat');
 
 
@@ -122,6 +128,22 @@ function display_results(cards1, cards2, der) {
     $('#res2').prepend(`<h3>${name_team2}</h3>`);
 }
 
+var names = ['', '', '', '']
+function update_players(players) {
+    names = ['', '', '', ''];
+    players.forEach(function (elem) {
+        let chair = elem['chair'];
+        let name = elem['name'];
+        if (chair != 0) {
+            names[chair-1] = name;
+        }
+        if (chair != chair_id) {
+            $('#chair'+chair).removeClass('free');
+            $('#chair'+chair).addClass('taken');
+        }
+    })
+}
+
 var seated = 0;
 function reset() {
     console.log('reset')
@@ -137,12 +159,11 @@ function reset() {
     $('#res2').addClass('disable');
 
     ['#chair1', '#chair3', '#chair2', '#chair4'].forEach(function (elem) {
-        $(elem).removeClass('yours');
+        // $(elem).removeClass('yours');
         $(elem).removeClass('taken');
         $(elem).addClass('free');
     });
-    $('#order').html(`<div class="valign">XX</div>`);
-    $('#order').html(`<div class="valign">XX</div>`);
+    // $('#order').html(`<div class="valign">XX</div>`);
     last_card_played = false;
     card_played = null;
     seated = 0;
@@ -151,10 +172,11 @@ function reset() {
     display_last_hand([null,null,null,null]);
 }
 
+function updated_name() {
+    send_msg('name', {'name': document.getElementById('pname').value});
+}
 
 function load() {
-    send_msg('user', {});
-
     document.getElementById("team1").addEventListener('click', function() {
         send_msg('pickup', 1);
     })
@@ -167,30 +189,35 @@ function load() {
     document.getElementById("chair1").addEventListener('click', function() {
         if (seated == 0) {
             seated = 1
-            send_msg('chair', 0);
+            send_msg('chair', 1);
         }
     })
     document.getElementById("chair2").addEventListener('click', function() {
         if (seated == 0) {
             seated = 1
-            send_msg('chair', 1);
+            send_msg('chair', 2);
         }
     })
     document.getElementById("chair3").addEventListener('click', function() {
         if (seated == 0) {
             seated = 1
-            send_msg('chair', 2);
+            send_msg('chair', 3);
         }
     })
     document.getElementById("chair4").addEventListener('click', function() {
         if (seated == 0) {
             seated = 1
-            send_msg('chair', 3);
+            send_msg('chair', 4);
         }
     })
     
     $("#team1").html(`<div class="valign">${name_team1}</div>`);
     $("#team2").html(`<div class="valign">${name_team2}</div>`);
+    
+    document.getElementById("pname").addEventListener('input', function() { updated_name() });
+    $('#pname').hide();
+
+    send_msg('user', {'name': document.getElementById('pname').value});
 }
 
-window.onload = load;
+document.body.onload = load;
