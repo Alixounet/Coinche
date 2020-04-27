@@ -272,7 +272,7 @@ html {
     box-shadow: 2px 2px 5px #00000088;
 }
 
-.button:hover {
+.button:hover, .clicked {
     background: #2D69DA !important;
     color: white !important;
 }

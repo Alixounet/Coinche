@@ -64,6 +64,7 @@ function wssend(msg) {
                   $('#res1').addClass('disable');
                   $('#res2').addClass('disable');
                   $('#ok').addClass('disable');
+                  $('#ok').removeClass('clicked');
                   ['#chair1', '#chair3', '#chair2', '#chair4'].forEach(function (elem) {
                      $(elem).removeClass('played');
                   });

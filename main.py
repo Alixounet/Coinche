@@ -20,6 +20,8 @@ class CoincheGame:
         self.teams = {1:[], 2:[]}
         self.picked_up = False
         self.spectators = []
+
+        self.ngsafe = 4
     
     def request_chair(self, chair, uid):
         chairs = {0: False, 1: False, 2: False, 3: False, 4: False }
@@ -98,6 +100,8 @@ class CoincheGame:
         await self.update_players()
     
     async def reset(self):
+        self.ngsafe = 4
+
         for p in self.players + self.spectators:
             infos = {
                 'type': 'reset'
@@ -105,6 +109,8 @@ class CoincheGame:
             await p['ws'].send(json.dumps(infos))
 
     async def start_game(self):
+        self.ngsafe = 4
+
         print('Start game')
         if len(self.players) < 4:
             return
@@ -276,7 +282,8 @@ async def message(websocket, path):
                 if game.count_chairs_available() == 0:
                     await game.start_game()
             elif event == 'newgame':
-                if game.nb_player_left() == 0:
+                game.ngsafe -= 1
+                if game.nb_player_left() == 0 and game.ngsafe == 0:
                     await game.start_game()
             elif event == 'play':
                 card = { 'value': val['value'], 'suit':  val['suit'] }

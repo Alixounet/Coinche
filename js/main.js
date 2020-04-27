@@ -184,7 +184,10 @@ function load() {
         send_msg('pickup', 2);
     })
     document.getElementById("ok").addEventListener('click', function() {
-        send_msg('newgame', {});
+        if (!$("#ok").hasClass('clicked')) {
+            $("#ok").addClass('clicked')
+            send_msg('newgame', {});
+        }
     })
     document.getElementById("chair1").addEventListener('click', function() {
         if (seated == 0) {
